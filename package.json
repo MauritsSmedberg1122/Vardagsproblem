@@ -1,0 +1,28 @@
+{
+  "name": "vardagsproblem",
+  "version": "1.0.0",
+  "description": "- Vs-code\r - Phyton",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "complie": "tsc",
+    "start": "npm run complie && node ./dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MauritsSmedberg1122/Vardagsproblem.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MauritsSmedberg1122/Vardagsproblem/issues"
+  },
+  "homepage": "https://github.com/MauritsSmedberg1122/Vardagsproblem#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "googleapis": "^118.0.0",
+    "nodemailer": "^6.9.1"
+  }
+}
